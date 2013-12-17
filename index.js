@@ -7,7 +7,6 @@ server.get('/ohio', spider(
   {
     regex: /mailto:(.+)\shref/gm, 
     map: function(match){
-      debugger;
       return match[1].replace(/['\+'"]/g, "");
     }
   })
