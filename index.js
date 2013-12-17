@@ -5,10 +5,10 @@ var restify = require('restify'),
 server.use(restify.queryParser());
 server.get('/ohio', spider(
   {
-    regex: /mailto:(.+?)\b/gm, 
+    regex: /mailto:(.+)\shref/gm, 
     map: function(match){
-      console.log(match);
-      return match[1] + match[2] + match[3] + match[4];
+      debugger;
+      return match[1].replace(/['\+'"]/g, "");
     }
   })
 );
