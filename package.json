@@ -1,0 +1,15 @@
+{
+  "name": "email-spider",
+  "version": "0.0.0",
+  "description": "Parse out any email addresses found in webpage sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Morrice",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "restify": "~2.6.1",
+    "q": "~0.9.7"
+  }
+}
