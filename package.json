@@ -10,6 +10,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "restify": "~2.6.1",
-    "q": "~0.9.7"
+    "q": "~0.9.7",
+    "mout": "~0.8.0"
   }
 }
